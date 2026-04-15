@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "worker": "npx tsx --env-file=.env worker.ts"
+    "worker": "npx tsx worker.ts"
   },
   "dependencies": {},
   "devDependencies": {
