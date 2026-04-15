@@ -1,0 +1,13 @@
+{
+  "name": "do-env-test",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "worker": "npx tsx --env-file=.env worker.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}
